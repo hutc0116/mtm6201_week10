@@ -36,4 +36,14 @@
 /*Custom CSS*/
 .banner{
     background:white url(/images/main-banner.jpg)no-repeat center center;
+    background-size:cover;
+}
+.vision{
+    background:black url(/images/vision.jpg) no-repeat center center;
+    background-size:cover;
+}
+.object-fit img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
