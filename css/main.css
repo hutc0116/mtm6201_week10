@@ -1,0 +1,39 @@
+/*Bootstrap CSS*/
+:root,[data-bs-theme=light],[data-bs-theme=dark]{
+    --bs-primary:#C78C06;
+    --bs-primary-rgb:177,126,6;
+    --cs-primary-dark:#976a00;
+    --cs-primary-dark-rgb:rgb(151, 106, 0);
+    --bs-secondary:#FFE6AC;
+    --bs-secondary-rgb:255,230,172;
+}
+.btn-outline-primary{
+    --bs-btn-color:var(--bs-primary);
+    --bs-btn-border-color:var(--bs-primary);
+    --bs-btn-hover-bg:var(--bs-primary);
+    --bs-btn-hover-border-color:var(--bs-primary);
+    --bs-btn-active-bg:var(--bs-primary);
+    --bs-btn-active-border-color:var(--bs-primary);
+    --bs-btn-disabled-color:var(--bs-primary);
+    --bs-btn-disabled-border-color:var(--bs-primary);
+}
+.btn-primary {
+    --bs-btn-color: var(--bs-dark);
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--cs-primary-dark);
+    --bs-btn-hover-border-color: var(--cs-primary-dark);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: var(--bs-dark);
+    --bs-btn-active-bg: var(--cs-primary-dark);
+    --bs-btn-active-border-color: var(--bs-primary);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--bs-dark);
+    --bs-btn-disabled-bg: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+}
+/*Custom CSS*/
+.banner{
+    background:white url(/images/main-banner.jpg)no-repeat center center;
+}
